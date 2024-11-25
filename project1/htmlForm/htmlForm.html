@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Form</title>
+    <link rel="stylesheet" href="./css.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Name and Address</legend>
+        <label for="civicrm">Do you use CiviCRM?</label>
+        <input type="radio" id="civicrm_yes" value="yes" /> Yes
+        <input type="radio" id="civicrm_no" value="no" /> No
+        <a href="#">(unselect)</a>
+        <br /><br />
+
+        <label>How long have you been using CiviCRM?</label>
+        <select id="civicrm_duration">
+          <option value="">- select -</option>
+        </select>
+        <br /><br />
+
+        <label>Which CMS do you use?</label>
+        <select id="cms">
+          <option value="">- select -</option>
+        </select>
+        <br /><br />
+
+        <label>Your skill set</label>
+        <select id="skillset">
+          <option value="">- select -</option>
+        </select>
+        <br /><br />
+
+        <label>Email *</label>
+        <input type="email" id="email" required />
+        <br /><br />
+
+        <label for="first_name">First Name *</label>
+        <input type="text" id="first_name" required />
+        <br /><br />
+
+        <label>Last Name *</label>
+        <input type="text" id="last_name" required />
+        <br /><br />
+
+        <p>
+          First and last name will be shared with other visitors to the site.
+        </p>
+
+        <label for="street_address">Street Address (Home)</label>
+        <input type="text" id="street_address" />
+        <br /><br />
+
+        <label for="city">City (Home)</label>
+        <input type="text" id="city" />
+        <br /><br />
+
+        <label>Postal Code (Home)</label>
+        <input type="text" id="postal_code" />
+        <br /><br />
+
+        <label for="country">Country (Home)</label>
+        <select id="country">
+          <option>United States</option>
+        </select>
+        <br /><br />
+
+        <p>
+          Your state/province and country of residence will be shared with
+          others so folks can find others in their community.
+        </p>
+
+        <label>State (Home)</label>
+        <select id="state">
+          <option>- select -</option>
+        </select>
+        <br /><br />
+      </fieldset>
+      <button id="submit-btn" type="submit">Save</button>
+      <button id="cancel-btn" type="button">Cancel</button>
+    </form>
+  </body>
+</html>

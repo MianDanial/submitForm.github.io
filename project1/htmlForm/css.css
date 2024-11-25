@@ -1,0 +1,45 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+#civicrm_yes {
+margin-left: 200px;
+}
+#civicrm_duration{
+    margin-left: 79px;
+}
+#cms{
+    margin-left: 190px;
+}
+#skillset{
+    margin-left: 267px;
+}
+#email{
+    margin-left: 300px;
+}
+#first_name{
+    margin-left: 265px;
+}
+#last_name{
+    margin-left: 267px;
+}
+#street_address{
+    margin-left: 201px;
+}
+#city{
+    margin-left: 267px;
+}
+#postal_code{
+    margin-left: 215px;
+}
+#country{
+    margin-left: 240px;
+}
+#state{
+    margin-left: 257px;
+}
+#submit-btn{
+    margin-top: 10px;
+}
